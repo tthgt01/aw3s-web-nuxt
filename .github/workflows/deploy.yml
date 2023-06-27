@@ -1,0 +1,76 @@
+name: Deploy to Amazon ECS
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  AWS_REGION: ${{ secrets.REGION }}                    # set this to your preferred AWS region, e.g. us-west-1
+  AWS_SERVICE_NAME: ${{ secrets.SERVICE_NAME }}                      # set this to your Amazon ECS service name
+  AWS_CLUSTER_NAME: ${{ secrets.CLUSTER_NAME }}                 # set this to your Amazon ECS cluster name
+  AWS_INTERNAL_PORT: 3000
+  AWS_EXTERNAL_PORT: 3000
+  AWS_INSTANCE_CPU: ${{ secrets.CPU }}
+  AWS_INSTANCE_RAM: ${{ secrets.RAM }}
+
+jobs:
+  deploy:
+    name: Deploy to ECS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+      
+      - name: Build, tag, and push image to Amazon ECR
+        id: build-image
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: ${{ github.event.repository.name }}
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          # Build a docker container and
+          # push it to ECR so that it can
+          # be deployed to ECS.
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+      
+      - name: Create and register task definition
+        id: register-task-definition
+        run: |
+          echo ::set-output name=task-definition::$(aws ecs register-task-definition \
+            --family ${{ github.event.repository.name }} \
+            --container-definitions '[{"name":"${{ env.AWS_SERVICE_NAME }}","image":"${{ steps.build-image.outputs.image }}","essential":true,"memory":${{ env.AWS_INSTANCE_RAM }},"cpu":${{ env.AWS_INSTANCE_CPU }},"portMappings":[{"containerPort":${{ env.AWS_INTERNAL_PORT }},"hostPort":${{ env.AWS_EXTERNAL_PORT }},"protocol":"tcp"}],"environment":[],"logConfiguration":{"logDriver":"awslogs","options":{"awslogs-group":"/ecs/${{ github.event.repository.name }}-task","awslogs-region":"${{ env.AWS_REGION }}","awslogs-stream-prefix":"ecs"}}}]' \
+            --query 'taskDefinition.taskDefinitionArn' \
+            --output text)
+
+      - name: Update service with new task definition
+        run: |
+          aws ecs update-service \
+            --cluster ${{ env.AWS_CLUSTER_NAME }} \
+            --service ${{ env.AWS_SERVICE_NAME }} \
+            --task-definition ${{ steps.register-task-definition.outputs.task-definition }} \
+            --force-new-deployment
+            
+      - name: Get existing task id
+        id: get-existing-task-id
+        run: |
+          echo ::set-output name=id::$(aws ecs list-tasks --cluster "${{ env.AWS_CLUSTER_NAME }}" --service "${{ env.AWS_SERVICE_NAME }}" --output text --query taskArns[0])
+          
+      - name: Stop existing task
+        if: ${{ steps.get-existing-task-id.outputs.id != 'None' }}
+        run: |
+          aws ecs stop-task --cluster "${{ env.AWS_CLUSTER_NAME }}" --task "${{ steps.get-existing-task-id.outputs.id }}"
