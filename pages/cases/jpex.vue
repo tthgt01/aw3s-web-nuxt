@@ -5,10 +5,10 @@
       <v-main>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-my-fund-safe">
-            <h1>為什麼 Jpex 一直被指為騙局？</h1>
-            <p>坊間一直有不少聲音指出加密貨幣交易所 jp-ex.io 是一場騙局。</p>
-            <p>而香港證監會和全球反詐騙組織，都紛紛把 Jpex 列入可疑名單，並建議投資者小心和避免把資金投入此不受規管的平台。</p>
-            <p>事實上，Jpex 的運作確實與資金盤騙局有很多相似之處。</p>
+            <h1>為什麼 JPEX 一直被指為騙局？</h1>
+            <p>坊間一直有不少聲音指出加密貨幣交易所 JPEX(jp-ex.io) 是一場騙局。</p>
+            <p>而香港證監會和全球反詐騙組織，都紛紛把 JPEX 列入可疑名單，並建議投資者小心和避免把資金投入此不受規管的平台。</p>
+            <p>經深入調查發現，JPEX的運作確實與資金盤騙局有很多相似之處。</p>
             <div class="examples">
               <div>
                 <div>
@@ -29,6 +29,11 @@
                 </div>
                 <div class="description">
                   香港證監會 - 無牌公司及可疑網站名單
+                  <a
+                    target="_blank"
+                    href="https://www.sfc.hk/TC/alert-list/2850"
+                    >查看</a
+                  >
                 </div>
               </div>
               <div>
@@ -50,6 +55,11 @@
                 </div>
                 <div class="description">
                   GA-SO全球反詐騙組織 - 詐騙網站名單
+                  <a
+                    target="_blank"
+                    href="https://www.globalantiscam.org/scam-websites/j"
+                    >查看</a
+                  >
                 </div>
               </div>
             </div>
@@ -57,8 +67,8 @@
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="case-study">
-            <h2>那 Jpex 是騙局嗎？</h2>
-            <p>判斷 Jpex 是否騙局前，我們先來了解什麼是加密貨幣或 web3 常見的資金盤騙局。</p>
+            <h2>那 JPEX 是騙局嗎？</h2>
+            <p>判斷 JPEX 是否騙局前，我們先來了解什麼是常見的資金盤騙局。</p>
             <p>下列影片中所提及的「以新錢填補舊錢」，正為資金盤騙局的主要基礎：</p>
             <div class="examples">
               <iframe
@@ -75,15 +85,18 @@
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-jpex-a-scam-2">
-            <h2>那麼 Jpex 有否「以新錢填補舊錢」？</h2>
+            <h2>那麼 JPEX 有否「以新錢填補舊錢」？</h2>
             <p>
               評估有關項目有否「以新錢填補舊錢」、是否能夠有足夠資金可以完全歸還所有投資者，「資金證明」是非常重要的一環來進行評估。
             </p>
             <p>
-              於 FTX 加密貨幣交易所崩盤後，各大交易所紛紛推出及定期發佈POR來證明自己沒有挪用用戶資產，並有足夠的資產歸還用戶。有關POR可供投資者自行查閱和驗證。
+              於 FTX 加密貨幣交易所崩盤後，各大交易所紛紛推出及定期發佈PoR(Proof of Reserves)來證明自己沒有挪用用戶資產，並有足夠的資產歸還用戶。有關PoR可供投資者自行查閱和驗證。
             </p>
             <p>
-              而 Jpex 亦於2022年11月13日公告將會推出POR。可惜直至現在，Jpex還未提供有效的POR證明。
+              而 JPEX 亦於2022年11月13日公告將會推出PoR。可惜直至現在， JPEX 還未提供有效的PoR證明。
+            </p>
+            <p>
+              幸好，區塊鏈數據是公開透明，任何人都可能查閱的，而經深入調查鏈上數據發現，JPEX有十分大的資金缺口，這和他們一直宣稱100%用戶資產都存放在交易所的冷錢包明顯不符。因此有理由相信他們是典型「以新錢填補舊錢」的資金盤騙局。
             </p>
             <div class="examples">
               <div>
@@ -143,12 +156,17 @@
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-jpex-a-scam">
-            <h2>Jpex 規模很大，在香港到處廣告，也會是騙局嗎？</h2>
+            <h2>JPEX的規模好像很大，在香港到處廣告，又有名人加持，也會是騙局嗎？</h2>
             <p>
-              項目的規模，並非應該用以判斷是否騙局的指標。而資金盤騙局主要是基於「新錢填補舊錢」的概念上，有不同的演化，歷史上亦有各式大大小小的資金盤騙局。
-            </p>
+              項目的宣傳規模，並非有效判斷是否騙局的指標。
+              <br/>
+              很多騙局之所以可以有很多資金做到大型宣傳，正正是因為他們挪用了客戶資金。
+              <br/>
+              例如FTX大灑1.35億美元買下NBA熱火隊主場館的命名權，破產後卻發現大部分的宣傳費都是挪用了客戶資金。
+              <br/>
+              歷史上亦有各式大大小小的資金盤騙局，有些騙局的宣傳規模更大得可以有世界巡迴的研討會。</p>
             <p>
-              除了剛剛影片提及的 DC SOLAR 例子外，以下為另一知名且規模非常大的資金盤騙局例子：
+              除了剛剛影片提及，連股神巴菲特都中伏的例子的 DC SOLAR 外，以下為兩個都是知名且規模非常大的資金盤騙局例子：
             </p>
             <div class="examples">
               <iframe
@@ -160,20 +178,38 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
+              <br/>
+              <iframe
+                :width="isLargeScreen ? 560 : iframWidth"
+                height="315"
+                src="https://www.youtube.com/embed/NpwC8OAowwc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
+            <p>
+              由此可見，大型的廣告宣傳以及KOL在大家面前建立的富人形象，都只是騙徒為了獲取你的信任的手法。
+              <br/>
+              只要令很多人中計，那麼再多的廣告費，買再多的名車名錶，對騙徙來說都是能輕鬆回本的。
+            </p>
           </section>
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-jpex-licensed">
-            <h2>Jpex 不是拿了很多牌照嗎？會有是騙局的可能嗎？</h2>
+            <h2>JPEX 不是拿了很多牌照嗎？會有是騙局的可能嗎？</h2>
             <p>
-              Jpex 確實是有申請官網所列出的有關牌照。可惜，其有關牌照實際只能證明其為一所「金融業務公司」。
+              經查證， JPEX 確實是有申請官網所列出的有關牌照。
+              <br/>
+              可惜，其有關牌照實際只能證明其為一所「金融業務公司」，而並非擁有「經營」加密貨幣/證券交易平台的資格。
+              <br/>
+              亦即代表 JPEX 於美國/加拿大/澳洲/立陶宛都不能「經營」交易平台。
             </p>
             <p>
-              而並非擁有「經營」加密貨幣/證券交易平台的資格，亦即代表 Jpex 於美國/加拿大/澳洲/立陶宛都不代表其能「經營」交易平台。
-            </p>
-            <p>
-              除此之外，現時 Jpex 並不符合香港證監會之發牌及過渡期的資格。其在香港「營運」及聯同旗下 KOL「宣傳」已等同犯法。
+              除此之外，現時 JPEX 並不符合香港證監會之發牌過渡期的資格。
+              <br/>
+              其在香港「營運」及聯同旗下KOL「宣傳」已等同犯法。
             </p>
             <div class="examples">
               <div>
@@ -220,46 +256,19 @@
                   <a
                     target="_blank"
                     href="https://www.wikibit.kr/dr/1259547801820.html"
-                    >查看</a
-                  >
+                  >查看</a>
                 </div>
               </div>
             </div>
           </section>
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
-          <section class="funding-gap">
-            <h2>Jpex 的資金缺口有多大？</h2>
-            <p>
-              根據鏈上數據的統計，Jpex
-              現在的資金缺口高達3億7千萬美元，即約29億港幣左右，存量只有實際入金量的9%。
-            </p>
-            <div class="examples">
-              <div>
-                <v-img
-                  :max-height="450"
-                  src="/assets/jpex/funding-gap.png"
-                  @click="openModal('/assets/jpex/funding-gap.png')"
-                >
-                  <template v-slot:placeholder>
-                    <div class="d-flex align-center justify-center fill-height">
-                      <v-progress-circular
-                        color="grey-lighten-4"
-                        indeterminate
-                      ></v-progress-circular>
-                    </div>
-                  </template>
-                </v-img>
-              </div>
-            </div>
-          </section>
-        </v-parallax>
-        <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="what-makes-the-gap">
-            <h2>為什麼 Jpex 可以出現如此大的資金缺口？</h2>
+            <h2>那麼 JPEX 的資金缺口有多大？</h2>
             <p>
-              根據鏈上數據顯示，Jpex 一直透過旗下 otc，重複出售同一批 USDT
-              穩定幣，令其缺口越變越大。
+              根據鏈上數據顯示，JPEX 一直透過旗下 OTC，重複出售JPEX內的 USDT 穩定幣，令其缺口越變越大。
+              <br/>
+              現在的資金缺口估計高達3億3千萬美元，即約26億港幣左右，存量只有實際入金量的9%。
             </p>
             <div class="examples">
               <div>
@@ -299,9 +308,13 @@
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="what-makes-the-gap">
-            <h2>Jpex 與旗下 otc 的關係</h2>
-            <p>Jpex 透過打造加密貨幣 KOL/專家的方法，以有關 KOL 吸引大量加密貨幣新手把資金投入 Jpex 平台上的各個項目如 jpc、jpp 並進行長時間質押。</p>
-            <p>在盡可能把用戶資金鎖在其平台上的同時，Jpex 把用戶已質押的資金(USDT穩定幣) 以旗下 OTC 重複出售予投資者並重新投入 Jpex 平台上。</p>
+            <h2>JPEX 與旗下 OTC 的關係</h2>
+            <p>
+              JPEX 透過打造針對不同群眾的加密貨幣 KOL/專家，開設多間OTC，舉辦很多實體講座以及利用網上的投資交流群組。
+              <br/>
+              JPEX 透過提供一條龍服務，吸引大量加密貨幣新手把資金投入其平台上的各個項目如 JPC、JPP 並進行長時間質押。
+            </p>
+            <p>在盡可能把用戶資金鎖在其平台上的同時，JPEX 把用戶已存入 JPEX 的資金(USDT穩定幣) 在旗下 OTC 重複出售予投資者並重新投入 JPEX 平台上。</p>
             <div class="examples">
               <div>
                 <div>
@@ -321,7 +334,7 @@
                   </v-img>
                 </div>
                 <div class="description">
-                  以上 OTC 只支援於 Jpex 平台上進行出入金
+                  以上 OTC 幾乎只支援於 JPEX 平台上進行出入金
                 </div>
               </div>
               <div>
@@ -355,9 +368,13 @@
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-my-fund-safe">
-            <h2>其實 Jpex 可以出金，應該問題不大？</h2>
-            <p>我們可以透過剛剛的影片了解到，資金盤一直是用「新錢填補舊錢」，直到新錢不足以填補舊錢後，騙局就會爆煲。</p>
-            <p>而除了資金缺口非常嚴重外，Jpex 對於用戶的資金保障一直存在各種問題，如資金被盗、資金突然減少等。</p>
+            <h2>我已經用了 JPEX 很久，一直可以出金，應該問題不大？</h2>
+            <p>我們可以透過剛剛的影片了解到，資金盤一直是用「新錢填補舊錢」，直到新錢不足以填補舊錢後，騙局就會崩盤。</p>
+            <p>
+              而除了資金缺口非常嚴重外，JPEX 對於用戶的資金保障一直存在各種問題，如資金被盗、資金莫名奇妙減少等。
+              <br/>
+              另外平台也有很多做假，對用戶不友善的地方，甚至涉及洗黑錢之嫌，之後會有更詳細說明。
+            </p>
             <div class="examples">
               <div>
                 <div>
@@ -378,15 +395,23 @@
                     </template>
                   </v-img>
                 </div>
+                <div class="description">
+                  資金被盗事件之一:
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/groups/495950654340065/permalink/1286766811925108/"
+                    >查看</a
+                  >
+                </div>
               </div>
               <div>
                 <div>
                   <v-img
                     :max-height="450"
-                    src="/assets/jpex/stole-fund/coingaroo-explanation.png"
+                    src="/assets/jpex/stole-fund/ppt.png"
                     @click="
                       openModal(
-                        '/assets/jpex/stole-fund/coingaroo-explanation.png'
+                        '/assets/jpex/stole-fund/ppt.png'
                       )
                     "
                   >
@@ -400,17 +425,33 @@
                     </template>
                   </v-img>
                 </div>
+                <div class="description">
+                  資金莫名減少事例:
+                  <a
+                    target="_blank"
+                    href="https://www.ptt.cc/bbs/DigiCurrency/M.1670160071.A.FE9.html"
+                    >查看</a
+                  >
+                </div>
               </div>
             </div>
           </section>
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-my-fund-safe">
-            <h2>我有資金在 jpex 的項目上，我該怎麼辦？</h2>
+            <h2>我有資金在 JPEX 的項目上，我該怎麼辦？</h2>
             <p>做任何投資前，理應多了解相關項目的風險。在沒有充分了解前，務必好好保護你的資金。</p>
-            <p>打加密貨幣旗號而出現的資金盤騙局不時以不同形式出現，說到底，也只是「新錢填補舊錢」，一旦新錢不足，騙局就會結束，投資者資金當然會一併消失。</p>
-            <p>由於我們無法知道騙局實際資本狀況，對於騙局何時會因為資本不足以支撐營運/騙徒決定收網而結束，投資者的資金面臨隨時血本無歸的風險。</p>
-            <p>遇上可疑平台/認為有關平台有可疑，應先盡可能取回本金，避免招致損失。</p>
+            <p>以加密貨幣為噱頭而出現的資金盤騙局不時以不同形式出現，說到底，也只是「新錢填補舊錢」，一旦新錢不足，騙局就會結束，投資者資金當然會一併消失。</p>
+            <p>由於我們無法知道騙局實際資本狀況以及執法機構的調查進度，對於騙局何時會因為資本不足以支撐營運或騙徒為逃避執法決定收網而結束。</p>
+            <p>我們並不能提供一個預計，投資者的資金需要面臨隨時血本無歸的風險。</p>
+            <p>一個沒有顯示倒數時間的計時炸彈，你能預計何時會爆嗎？</p>
+            <br/>
+            <p>我們建議遇上可疑平台/認為有關平台有可疑，應先盡可能取回本金，避免招致損失。</p>
+            <p>有關以上調查結果的更詳細證據，稍後將完整公佈。</p>
+            <!-- <p>有關以上調查結果的更詳細證據，可參閱: <a
+              target="_blank"
+              href="/cases/jpex-detail"
+            >查看</a></p> -->
           </section>
         </v-parallax>
       </v-main>
