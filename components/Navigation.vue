@@ -25,19 +25,19 @@
     >
       <v-list-item
         prepend-icon="mdi-home-circle"
-        title="About Anti Web3 Scam"
+        title="關於 Anti Web3 Scam"
         @click="navigateTo('/', { external: true })"
       ></v-list-item>
       <v-list-item
         prepend-icon="mdi-book"
-        title="Case study - jp-ex.io"
+        title="專題研究 - jp-ex.io"
         @click="navigateTo('/cases/jpex', { external: true })"
       ></v-list-item>
-      <!-- <v-list-item
+      <v-list-item
         prepend-icon="mdi-alert"
-        title="Report a scam"
-        @click="navigateTo('/report')"
-      ></v-list-item> -->
+        title="我想舉報"
+        @click="navigateTo('https://forms.gle/hkVNAsT1ejmfSh156', { external: true })"
+      ></v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
