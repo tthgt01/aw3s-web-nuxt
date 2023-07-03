@@ -58,7 +58,7 @@ export default {
 }
 
 .modal-content img {
-  max-width: 100%;
+  max-width: 45vh;
   height: auto;
 }
 

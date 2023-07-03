@@ -72,8 +72,8 @@
             <p>下列影片中所提及的「以新錢填補舊錢」，正為資金盤騙局的主要基礎：</p>
             <div class="examples">
               <iframe
-                :width="isLargeScreen ? 560 : iframWidth"
-                height="315"
+                :width="iframWidth"
+                :height="iframHeight"
                 src="https://www.youtube.com/embed/co8EmbhovPQ"
                 title="YouTube video player"
                 frameborder="0"
@@ -89,12 +89,14 @@
             <p>
               評估有關項目有否「以新錢填補舊錢」、是否能夠有足夠資金可以完全歸還所有投資者，「資金證明」是非常重要的一環來進行評估。
             </p>
+            <br/>
             <p>
-              於 FTX 加密貨幣交易所崩盤後，各大交易所紛紛推出及定期發佈PoR(Proof of Reserves)來證明自己沒有挪用用戶資產，並有足夠的資產歸還用戶。有關PoR可供投資者自行查閱和驗證。
+              於 FTX 加密貨幣交易所崩盤後，各大交易所紛紛推出及定期發佈 PoR(Proof of Reserves) 來證明自己沒有挪用用戶資產，並有足夠的資產歸還用戶。有關PoR可供投資者自行查閱和驗證。
             </p>
             <p>
               而 JPEX 亦於2022年11月13日公告將會推出PoR。可惜直至現在， JPEX 還未提供有效的PoR證明。
             </p>
+            <br/>
             <p>
               幸好，區塊鏈數據是公開透明，任何人都可能查閱的，而經深入調查鏈上數據發現，JPEX有十分大的資金缺口，這和他們一直宣稱100%用戶資產都存放在交易所的冷錢包明顯不符。因此有理由相信他們是典型「以新錢填補舊錢」的資金盤騙局。
             </p>
@@ -170,19 +172,9 @@
             </p>
             <div class="examples">
               <iframe
-                :width="isLargeScreen ? 560 : iframWidth"
-                height="315"
+                :width="iframWidth"
+                :height="iframHeight"
                 src="https://www.youtube.com/embed/iqrGNOCp5Cg"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-              <br/>
-              <iframe
-                :width="isLargeScreen ? 560 : iframWidth"
-                height="315"
-                src="https://www.youtube.com/embed/NpwC8OAowwc"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -473,6 +465,7 @@ useHead({
 });
 const isLargeScreen = useMediaQuery("(min-width: 1024px)").value;
 const iframWidth = isLargeScreen ? 560 : 375 - 95;
+const iframHeight = isLargeScreen ? 315 : 145;
 const modal = ref(null);
 
 const openModal = (imgSrc) => {
@@ -500,13 +493,14 @@ section h2 {
 }
 section p {
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 section .examples {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 section .examples .description {
   text-align: center;
