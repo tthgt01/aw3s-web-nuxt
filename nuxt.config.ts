@@ -23,7 +23,11 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      crawlLinks: false
+      crawlLinks: true
     }
+  },
+  sitemap: {
+    siteUrl: 'https://antiweb3scam.org',
+    sitemaps: true
   }
 });
