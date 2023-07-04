@@ -34,6 +34,6 @@ export default defineNuxtConfig({
     sitemaps: true
   },
   gtag: {
-    id: 'G-' + process.env.GA_ID
+    id: 'G-7PNNXWXC62'
   }
 });
