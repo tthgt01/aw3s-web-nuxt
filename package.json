@@ -20,7 +20,10 @@
     "@nuxtjs/robots": "^3.0.0",
     "@vueuse/core": "^10.2.0",
     "nuxt-precompress": "^0.5.9",
+    "nuxt-purgecss": "^2.0.0",
+    "nuxt-simple-sitemap": "^2.7.0",
     "nuxt-ssr-screen-size": "github:hugojerez/nuxt-ssr-screen-size",
+    "redirect-ssl": "^3.0.0",
     "sass": "^1.63.6",
     "vuetify": "^3.3.5"
   }

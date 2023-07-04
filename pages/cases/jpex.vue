@@ -17,6 +17,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/sfc.png"
+                    alt="香港證監會列 JPEX 入可疑名單"
                     @click="openModal('/assets/jpex/sfc.png')"
                   >
                     <template v-slot:placeholder>
@@ -43,6 +44,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/ga-so.png"
+                    alt="GA-SO全球反詐騙組織列 JPEX 入詐騙網站名單"
                     @click="openModal('/assets/jpex/ga-so.png')"
                   >
                     <template v-slot:placeholder>
@@ -109,6 +111,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/por/binance.png"
+                    alt="幣安儲備證明"
                     @click="openModal('/assets/jpex/por/binance.png')"
                   >
                     <template v-slot:placeholder>
@@ -135,6 +138,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/por/jpex.png"
+                    alt="JPEX 儲備證明公告"
                     @click="openModal('/assets/jpex/por/jpex.png')"
                   >
                     <template v-slot:placeholder>
@@ -211,6 +215,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/license-issue/jpex.png"
+                    alt="JPEX 網站上的牌照"
                     @click="openModal('/assets/jpex/license-issue/jpex.png')"
                   >
                     <template v-slot:placeholder>
@@ -233,6 +238,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/license-issue/wikibit.jpg"
+                    alt="WikiBit 對 JPEX 牌照評核"
                     @click="openModal('/assets/jpex/license-issue/wikibit.jpg')"
                   >
                     <template v-slot:placeholder>
@@ -269,6 +275,7 @@
                 <v-img
                   :max-height="450"
                   src="/assets/jpex/otc/relationship.png"
+                  alt="JPEX 與相關 OTC 的操作"
                   @click="openModal('/assets/jpex/otc/relationship.png')"
                 >
                   <template v-slot:placeholder>
@@ -302,7 +309,7 @@
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="what-makes-the-gap">
-            <h2>JPEX 與旗下 OTC 的關係</h2>
+            <h2>JPEX 與相關 OTC 的關係</h2>
             <p>
               JPEX 透過打造針對不同群眾的加密貨幣 KOL/專家，開設多間OTC，舉辦很多實體講座以及利用網上的投資交流群組。
               <br/>
@@ -315,6 +322,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/otc/otcs.png"
+                    alt="JPEX 與相關 OTC 的關係"
                     @click="openModal('/assets/jpex/otc/otcs.png')"
                   >
                     <template v-slot:placeholder>
@@ -336,6 +344,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/otc/coingaroo.png"
+                    alt="Coingaroo 對用戶資金被盗的澄清公告"
                     @click="openModal('/assets/jpex/otc/coingaroo.png')"
                   >
                     <template v-slot:placeholder>
@@ -375,6 +384,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/stole-fund/case-steven.png"
+                    alt="用戶資金被盗事件"
                     @click="
                       openModal('/assets/jpex/stole-fund/case-steven.png')
                     "
@@ -403,6 +413,7 @@
                   <v-img
                     :max-height="450"
                     src="/assets/jpex/stole-fund/ppt.png"
+                    alt="用戶資金莫名減少事件"
                     @click="
                       openModal(
                         '/assets/jpex/stole-fund/ppt.png'
