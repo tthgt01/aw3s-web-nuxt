@@ -8,17 +8,7 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxtjs/robots',
-    'nuxt-simple-sitemap',
-    ['nuxt-purgecss', {
-      content: [
-        /* Copy of 'dist' from first npm run generate */
-        'modules/purgecss/static-generated-html/**/*.html',
-      ],
-      greedy: [
-        /* Generated as runtime, keep all related selectors */
-        /v-ripple/,
-      ],
-    }]
+    'nuxt-simple-sitemap'
   ],
   buildModules: [
     '@averjs/nuxt-compression'
