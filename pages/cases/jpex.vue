@@ -438,7 +438,7 @@
             <br/>
             <p>由於我們無法知道騙局實際資本狀況<br/>以及執法機構的調查進度，<br/>對於騙局何時會因為資本不足以支撐營運<br/>或騙徒為逃避執法而決定收網，<br/>我們並不能提供一個預計，<br/>投資者的資金會面臨隨時血本無歸的風險。</p>
             <br/>
-            <p>東張西望｜ 近二百名事主疑墮進虛擬貨幣騙局而血本無歸！<br/><a href="https://www.youtube.com/watch?v=bAzvUSXactM">按此查看</a></p>
+            <p>東張西望｜ 近二百名事主疑墮進虛擬貨幣騙局而血本無歸！<br/><a href="https://www.youtube.com/watch?v=bAzvUSXactM" target="_blank">按此查看</a></p>
             <br/>
             <p>一個沒有顯示倒數時間的計時炸彈，<br/>你能預計何時會爆嗎？</p>
             <br/>
