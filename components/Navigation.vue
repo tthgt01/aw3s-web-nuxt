@@ -35,7 +35,7 @@
       ></v-list-item>
       <v-list-item
         prepend-icon="mdi-alert"
-        title="我想舉報"
+        title="舉報騙局"
         @click="navigateTo('https://forms.gle/hkVNAsT1ejmfSh156', { external: true })"
       ></v-list-item>
     </v-list>
