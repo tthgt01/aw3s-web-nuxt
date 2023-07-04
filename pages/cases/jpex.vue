@@ -35,6 +35,7 @@
                   <a
                     target="_blank"
                     href="https://www.sfc.hk/TC/alert-list/2850"
+                    title="香港證監會列 JPEX 入可疑名單"
                     >查看</a
                   >
                 </div>
@@ -62,6 +63,7 @@
                   <a
                     target="_blank"
                     href="https://www.globalantiscam.org/scam-websites/j"
+                    title="GA-SO全球反詐騙組織列 JPEX 入詐騙網站名單"
                     >查看</a
                   >
                 </div>
@@ -129,6 +131,7 @@
                   <a
                     target="_blank"
                     href="https://www.binance.com/zh-TC/proof-of-reserves"
+                    title="幣安儲備證明"
                     >查看</a
                   >
                 </div>
@@ -156,6 +159,7 @@
                   <a
                     target="_blank"
                     href="https://blog.jp-ex.io/zh/jpex-reserve-update-20221113/"
+                    title="JPEX 儲備證明公告"
                     >查看</a
                   >
                 </div>
@@ -230,7 +234,11 @@
                 </div>
                 <div class="description">
                   Jpex 網站上的牌照:<br/>
-                  <a target="_blank" href="https://jp-ex.io/zh/about">查看</a>
+                  <a
+                    target="_blank"
+                    href="https://jp-ex.io/zh/about"
+                    title="JPEX 網站上的牌照"
+                  >查看</a>
                 </div>
               </div>
               <div>
@@ -256,6 +264,7 @@
                   <a
                     target="_blank"
                     href="https://www.wikibit.kr/dr/1259547801820.html"
+                    title="WikiBit 對 JPEX 牌照評核"
                   >查看</a>
                 </div>
               </div>
@@ -362,6 +371,7 @@
                   <a
                     target="_blank"
                     href="https://www.instagram.com/p/CquDpZSBR_8/"
+                    title="Coingaroo 對用戶資金被盗的澄清公告"
                     >查看</a
                   >
                 </div>
@@ -404,8 +414,8 @@
                   <a
                     target="_blank"
                     href="https://www.facebook.com/groups/495950654340065/permalink/1286766811925108/"
-                    >查看</a
-                  >
+                    title="用戶資金被盗事件"
+                  >查看</a>
                 </div>
               </div>
               <div>
@@ -435,8 +445,8 @@
                   <a
                     target="_blank"
                     href="https://www.ptt.cc/bbs/DigiCurrency/M.1670160071.A.FE9.html"
-                    >查看</a
-                  >
+                    title="用戶資金莫名減少事件"
+                  >查看</a>
                 </div>
               </div>
             </div>
@@ -449,7 +459,15 @@
             <br/>
             <p>由於我們無法知道騙局實際資本狀況<br/>以及執法機構的調查進度，<br/>對於騙局何時會因為資本不足以支撐營運<br/>或騙徒為逃避執法而決定收網，<br/>我們並不能提供一個預計，<br/>投資者的資金會面臨隨時血本無歸的風險。</p>
             <br/>
-            <p>東張西望｜ 近二百名事主疑墮進虛擬貨幣騙局而血本無歸！<br/><a href="https://www.youtube.com/watch?v=bAzvUSXactM" target="_blank">按此查看</a></p>
+            <p>
+              東張西望｜ 近二百名事主疑墮進虛擬貨幣騙局而血本無歸！
+              <br/>
+              <a 
+                href="https://www.youtube.com/watch?v=bAzvUSXactM"
+                target="_blank"
+                title="東張西望｜ 近二百名事主疑墮進虛擬貨幣騙局而血本無歸！"
+              >按此查看</a>
+            </p>
             <br/>
             <p>一個沒有顯示倒數時間的計時炸彈，<br/>你能預計何時會爆嗎？</p>
             <br/>
