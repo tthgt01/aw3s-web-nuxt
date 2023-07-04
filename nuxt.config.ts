@@ -8,13 +8,16 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxtjs/robots',
-    'nuxt-simple-sitemap'
+    'nuxt-simple-sitemap',
+    'nuxt-gtag'
   ],
   buildModules: [
     '@averjs/nuxt-compression'
   ],
   build: {
-    transpile: ["vuetify"],
+    transpile: [
+      'vuetify'
+    ],
   },
   vite: {
     define: {
@@ -29,5 +32,8 @@ export default defineNuxtConfig({
   sitemap: {
     siteUrl: 'https://antiweb3scam.org',
     sitemaps: true
+  },
+  gtag: {
+    id: 'G-' + process.env.GA_ID
   }
 });

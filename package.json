@@ -19,6 +19,7 @@
     "@mdi/font": "^7.2.96",
     "@nuxtjs/robots": "^3.0.0",
     "@vueuse/core": "^10.2.0",
+    "nuxt-gtag": "^0.5.7",
     "nuxt-precompress": "^0.5.9",
     "nuxt-simple-sitemap": "^2.7.0",
     "nuxt-ssr-screen-size": "github:hugojerez/nuxt-ssr-screen-size",
