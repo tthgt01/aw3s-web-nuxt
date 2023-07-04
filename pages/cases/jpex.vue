@@ -550,7 +550,7 @@ section .examples .description {
 }
 section .remark {
   text-align: center;
-  font-size: 13px;
+  font-size: 16px;
 }
 section .remark button {
   text-decoration: underline;
