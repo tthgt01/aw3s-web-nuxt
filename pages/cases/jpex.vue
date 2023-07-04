@@ -463,8 +463,16 @@ import Navigation from "/components/Navigation.vue";
 import ImageModal from "/components/ImageModal.vue";
 
 useHead({
+  htmlAttrs: {
+    lang: 'zh'
+  },
   title: "Anti Web3 Scam | 專題研究 - jp-ex.io",
-  meta: [{ name: "description", content: "深入揭露JPEX交易所疑似騙局：從全球反詐騙組織和香港證監會的警告，到其運作模式與資金盤騙局的相似處，探索JPEX為何被眾多聲音指為疑似騙局。我們提供深度調查，探討其可能的資金缺口，並透過鏈上數據來評估其資金狀況。了解加密貨幣交易平台背後的隱藏風險，並提醒投資者在投入資金前應充分了解其風險。" }],
+  meta: [
+    {
+      name: "description",
+      content: "揭露JPEX交易所疑似騙局：探索其運作模式與資金盤騙局的相似處，並透過鏈上數據揭示其資金缺口。提醒投資者在投入資金前充分了解風險。"
+    }
+  ]
 });
 const modal = ref(null);
 

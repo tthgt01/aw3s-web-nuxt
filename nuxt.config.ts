@@ -6,6 +6,12 @@ export default defineNuxtConfig({
     "vuetify/lib/styles/main.sass",
     "@/public/assets/styles/main.scss"
   ],
+  modules: [
+    '@nuxtjs/robots'
+  ],
+  buildModules: [
+    '@averjs/nuxt-compression'
+  ],
   build: {
     transpile: ["vuetify"],
   },

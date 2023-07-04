@@ -24,8 +24,16 @@
 <script setup>
 import Navigation from "/components/Navigation.vue";
 useHead({
+  htmlAttrs: {
+    lang: 'zh'
+  },
   title: "Anti Web3 Scam | About Us",
-  meta: [{ name: "description", content: "Anti Web3 Scam 致力於提高公眾對 Web3 騙局的防範意識。我們提供準確的資訊，幫助您識別並規避詐騙項目，為打造一個更健康、安全和透明的 Web3 產業共同努力。" }],
+  meta: [
+    {
+      name: "description",
+      content: "在Web3的時代，我們是一個專注於金融安全教育的組織，致力於提供學習資源並揭露各種金融騙局。我們的目標是通過創建與豐富我們的數據庫，為投資者提供全面的資訊，從而幫助他們避免金融風險。我們的工作是為了實現更透明、更安全的未來網絡世界。"
+    }
+  ],
 });
 </script>
 
