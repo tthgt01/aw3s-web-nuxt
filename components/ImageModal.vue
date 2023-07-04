@@ -86,4 +86,10 @@ export default {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media only screen and (min-width:961px) {
+  .modal-content img {
+    max-width: 100vh;
+  }
+}
 </style>

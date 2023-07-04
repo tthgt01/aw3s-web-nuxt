@@ -6,9 +6,11 @@
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-my-fund-safe">
             <h1>為什麼 JPEX 一直被指為騙局？</h1>
-            <p>坊間一直有不少聲音指出加密貨幣交易所 JPEX(jp-ex.io) 是一場騙局。</p>
-            <p>而香港證監會和全球反詐騙組織，都紛紛把 JPEX 列入可疑名單，並建議投資者小心和避免把資金投入此不受規管的平台。</p>
-            <p>經深入調查發現，JPEX的運作確實與資金盤騙局有很多相似之處。</p>
+            <p>坊間一直有不少聲音指出<br/>加密貨幣交易所 JPEX 是一場騙局。</p>
+            <br/>
+            <p>而香港證監會和全球反詐騙組織，<br/>都紛紛把 JPEX 列入可疑名單，<br/>並建議投資者小心<br/>和避免把資金投入此不受規管的平台。</p>
+            <br/>
+            <p>經深入調查發現，<br/>JPEX 的運作確實與資金盤騙局有很多相似之處。</p>
             <div class="examples">
               <div>
                 <div>
@@ -28,7 +30,7 @@
                   </v-img>
                 </div>
                 <div class="description">
-                  香港證監會 - 無牌公司及可疑網站名單
+                  香港證監會 - 無牌公司及可疑網站名單<br/>
                   <a
                     target="_blank"
                     href="https://www.sfc.hk/TC/alert-list/2850"
@@ -54,7 +56,7 @@
                   </v-img>
                 </div>
                 <div class="description">
-                  GA-SO全球反詐騙組織 - 詐騙網站名單
+                  GA-SO全球反詐騙組織 - 詐騙網站名單<br/>
                   <a
                     target="_blank"
                     href="https://www.globalantiscam.org/scam-websites/j"
@@ -72,8 +74,6 @@
             <p>下列影片中所提及的「以新錢填補舊錢」，正為資金盤騙局的主要基礎：</p>
             <div class="examples">
               <iframe
-                :width="iframWidth"
-                :height="iframHeight"
                 src="https://www.youtube.com/embed/co8EmbhovPQ"
                 title="YouTube video player"
                 frameborder="0"
@@ -81,25 +81,28 @@
                 allowfullscreen
               ></iframe>
             </div>
+            <br/>
+            <p class="remark">另外，我們也收集了 ChatGPT4 根據資金盤的特徵<br/>對 JPEX 的評估：<button type="button" @click="openModal('/assets/jpex/chatgpt.jpg')">參閱</button></p>
           </section>
         </v-parallax>
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-jpex-a-scam-2">
-            <h2>那麼 JPEX 有否「以新錢填補舊錢」？</h2>
+            <h2>JPEX 有否「以新錢填補舊錢」？</h2>
             <p>
-              評估有關項目有否「以新錢填補舊錢」、是否能夠有足夠資金可以完全歸還所有投資者，「資金證明」是非常重要的一環來進行評估。
+              評估加密貨幣交易所有否「以新錢填補舊錢」、是否有足夠資金可以隨時完全歸還所有投資者，「資金證明(PoR)」是非常重要的一環。
             </p>
             <br/>
             <p>
-              於 FTX 加密貨幣交易所崩盤後，各大交易所紛紛推出及定期發佈 PoR(Proof of Reserves) 來證明自己沒有挪用用戶資產，並有足夠的資產歸還用戶。有關PoR可供投資者自行查閱和驗證。
+              FTX 交易所崩盤後，各大交易所都定期發佈PoR來證明自己沒有挪用用戶資產。
             </p>
             <p>
-              而 JPEX 亦於2022年11月13日公告將會推出PoR。可惜直至現在， JPEX 還未提供有效的PoR證明。
+              而 JPEX 亦於2022年11月13日公告將會推出PoR。但直至現在， JPEX 還未提供有效的PoR證明。
             </p>
             <br/>
             <p>
-              幸好，區塊鏈數據是公開透明，任何人都可能查閱的，而經深入調查鏈上數據發現，JPEX有十分大的資金缺口，這和他們一直宣稱100%用戶資產都存放在交易所的冷錢包明顯不符。因此有理由相信他們是典型「以新錢填補舊錢」的資金盤騙局。
+              幸好，區塊鏈是公開透明，任何人都可查閱。而經深入調查鏈上數據發現，
             </p>
+            <p>JPEX 有十分大的資金缺口，所以有理由相信他們是典型的資金盤騙局。這也解釋了為什麼他們做不到 PoR。</p>
             <div class="examples">
               <div>
                 <div>
@@ -118,8 +121,8 @@
                     </template>
                   </v-img>
                 </div>
-                <div>
-                  Binance 儲備證明:
+                <div class="description">
+                  Binance 儲備證明:<br/>
                   <a
                     target="_blank"
                     href="https://www.binance.com/zh-TC/proof-of-reserves"
@@ -144,8 +147,8 @@
                     </template>
                   </v-img>
                 </div>
-                <div>
-                  Jpex 用戶資產儲備聲明:
+                <div class="description">
+                  Jpex 用戶資產儲備聲明:<br/>
                   <a
                     target="_blank"
                     href="https://blog.jp-ex.io/zh/jpex-reserve-update-20221113/"
@@ -162,18 +165,15 @@
             <p>
               項目的宣傳規模，並非有效判斷是否騙局的指標。
               <br/>
-              很多騙局之所以可以有很多資金做到大型宣傳，正正是因為他們挪用了客戶資金。
+              很多騙局之所以有資金做到大型宣傳，正正是因為他們挪用了客戶資金。
               <br/>
-              例如FTX大灑1.35億美元買下NBA熱火隊主場館的命名權，破產後卻發現大部分的宣傳費都是挪用了客戶資金。
-              <br/>
-              歷史上亦有各式大大小小的資金盤騙局，有些騙局的宣傳規模更大得可以有世界巡迴的研討會。</p>
+              如FTX花了數以十億計美金做宣傳，最後發現大部分的宣傳費都是挪用了客戶資金。
+            </p>
             <p>
-              除了剛剛影片提及，連股神巴菲特都中伏的例子的 DC SOLAR 外，以下為另一個知名且規模非常大的資金盤騙局例子：
+              除了剛剛影片提及，連股神巴菲特都中伏的例子的 DC SOLAR 外，以下為另一個宣傳規模非常大的資金盤騙局例子：
             </p>
             <div class="examples">
               <iframe
-                :width="iframWidth"
-                :height="iframHeight"
                 src="https://www.youtube.com/embed/iqrGNOCp5Cg"
                 title="YouTube video player"
                 frameborder="0"
@@ -192,24 +192,26 @@
           <section class="is-jpex-licensed">
             <h2>JPEX 不是拿了很多牌照嗎？會有是騙局的可能嗎？</h2>
             <p>
-              經查證， JPEX 確實是有申請官網所列出的有關牌照。
+              經查證， JPEX 擁有的牌照為「金融業務公司」。
               <br/>
-              可惜，其有關牌照實際只能證明其為一所「金融業務公司」，而並非擁有「經營」加密貨幣/證券交易平台的資格。
+              並無賦與其「經營」加密貨幣交易平台的資格。
               <br/>
-              亦即代表 JPEX 於美國/加拿大/澳洲/立陶宛都不能「經營」交易平台。
+              故 JPEX 於美國/加拿大/澳洲/立陶宛，都不能「經營」加密貨幣交易平台。
+              <br/>
+              JPEX 只是利用大眾對牌照制度不認識去混水換魚。
             </p>
             <p>
-              除此之外，現時 JPEX 並不符合香港證監會之發牌過渡期的資格。
+              同時， JPEX 並不符合香港證監會之發牌過渡期的資格。
               <br/>
-              其在香港「營運」及聯同旗下KOL「宣傳」已等同犯法。
+              其在香港「營運」及聯同旗下 KOL「宣傳」經已犯法。
             </p>
             <div class="examples">
               <div>
                 <div>
                   <v-img
                     :max-height="450"
-                    src="/assets/jpex/license-issue/jpex.jpg"
-                    @click="openModal('/assets/jpex/license-issue/jpex.jpg')"
+                    src="/assets/jpex/license-issue/jpex.png"
+                    @click="openModal('/assets/jpex/license-issue/jpex.png')"
                   >
                     <template v-slot:placeholder>
                       <div class="d-flex align-center justify-center fill-height">
@@ -222,7 +224,7 @@
                   </v-img>
                 </div>
                 <div class="description">
-                  Jpex 網站上的牌照:
+                  Jpex 網站上的牌照:<br/>
                   <a target="_blank" href="https://jp-ex.io/zh/about">查看</a>
                 </div>
               </div>
@@ -244,7 +246,7 @@
                   </v-img>
                 </div>
                 <div class="description">
-                  WikiBit 對 Jpex 的牌照評核:
+                  WikiBit對Jpex牌照評核:<br/>
                   <a
                     target="_blank"
                     href="https://www.wikibit.kr/dr/1259547801820.html"
@@ -347,7 +349,7 @@
                   </v-img>
                 </div>
                 <div class="description">
-                  Coingaroo 特別澄清公告:
+                  Coingaroo 特別澄清公告:<br/>
                   <a
                     target="_blank"
                     href="https://www.instagram.com/p/CquDpZSBR_8/"
@@ -388,7 +390,7 @@
                   </v-img>
                 </div>
                 <div class="description">
-                  資金被盗事件之一:
+                  資金被盗事件之一:<br/>
                   <a
                     target="_blank"
                     href="https://www.facebook.com/groups/495950654340065/permalink/1286766811925108/"
@@ -418,7 +420,7 @@
                   </v-img>
                 </div>
                 <div class="description">
-                  資金莫名減少事例:
+                  資金莫名減少事例:<br/>
                   <a
                     target="_blank"
                     href="https://www.ptt.cc/bbs/DigiCurrency/M.1670160071.A.FE9.html"
@@ -432,13 +434,16 @@
         <v-parallax src="https://wallpapercave.com/wp/wp2406485.jpg">
           <section class="is-my-fund-safe">
             <h2>我有資金在 JPEX 的項目上，我該怎麼辦？</h2>
-            <p>做任何投資前，理應多了解相關項目的風險。在沒有充分了解前，務必好好保護你的資金。</p>
-            <p>以加密貨幣為噱頭而出現的資金盤騙局不時以不同形式出現，說到底，也只是「新錢填補舊錢」，一旦新錢不足，騙局就會結束，投資者資金當然會一併消失。</p>
-            <p>由於我們無法知道騙局實際資本狀況以及執法機構的調查進度，對於騙局何時會因為資本不足以支撐營運或騙徒為逃避執法決定收網而結束。</p>
-            <p>我們並不能提供一個預計，投資者的資金需要面臨隨時血本無歸的風險。</p>
-            <p>一個沒有顯示倒數時間的計時炸彈，你能預計何時會爆嗎？</p>
+            <p>以加密貨幣為噱頭的資金盤騙局經常出現，<br/>說到底，也只是「新錢填補舊錢」，<br/>一旦新錢不足，騙局就會結束，<br/>投資者資金當然會一併消失。</p>
             <br/>
-            <p>我們建議遇上可疑平台/認為有關平台有可疑，應先盡可能取回本金，避免招致損失。</p>
+            <p>由於我們無法知道騙局實際資本狀況<br/>以及執法機構的調查進度，<br/>對於騙局何時會因為資本不足以支撐營運<br/>或騙徒為逃避執法而決定收網，<br/>我們並不能提供一個預計，<br/>投資者的資金會面臨隨時血本無歸的風險。</p>
+            <br/>
+            <p>東張西望｜ 近二百名事主疑墮進虛擬貨幣騙局而血本無歸！<br/><a href="https://www.youtube.com/watch?v=bAzvUSXactM">按此查看</a></p>
+            <br/>
+            <p>一個沒有顯示倒數時間的計時炸彈，<br/>你能預計何時會爆嗎？</p>
+            <br/>
+            <p>我們建議當遇上任何有可疑平台時，<br/>應先盡可能取回本金，避免招致損失。</p>
+            <br/>
             <p>有關以上調查結果的更詳細證據，稍後將完整公佈。</p>
             <!-- <p>有關以上調查結果的更詳細證據，可參閱: <a
               target="_blank"
@@ -454,8 +459,6 @@
   </div>
 </template>
 <script setup>
-import { useMediaQuery } from "@vueuse/core";
-
 import Navigation from "/components/Navigation.vue";
 import ImageModal from "/components/ImageModal.vue";
 
@@ -463,9 +466,6 @@ useHead({
   title: "Anti Web3 Scam | Case Study - jp-ex.io",
   meta: [{ name: "description", content: "Jp-ex.io 是否詐騙平台之案例探討。" }],
 });
-const isLargeScreen = useMediaQuery("(min-width: 1024px)").value;
-const iframWidth = isLargeScreen ? 560 : 375 - 95;
-const iframHeight = isLargeScreen ? 315 : 145;
 const modal = ref(null);
 
 const openModal = (imgSrc) => {
@@ -476,7 +476,7 @@ const openModal = (imgSrc) => {
 <style scoped>
 section {
   height: 100vh;
-  padding: 0 50px;
+  padding: 0 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -493,19 +493,30 @@ section h2 {
 }
 section p {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 section .examples {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+section .examples iframe {
+  width: 280px;
+  height: 145px;
 }
 section .examples .description {
   text-align: center;
   margin-top: 8px;
-  font-size: 15px;
+  font-size: 12px;
+}
+section .remark {
+  text-align: center;
+  font-size: 13px;
+}
+section .remark button {
+  text-decoration: underline;
 }
 .source {
   position: fixed;
@@ -531,5 +542,10 @@ section a:hover {
   color: #fff;
 }
 
-
+@media only screen and (min-width:961px) {
+  section .examples iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
 </style>
